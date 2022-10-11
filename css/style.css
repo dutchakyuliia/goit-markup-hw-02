@@ -142,6 +142,7 @@ p {
 }
 .footer-address {
   font-size: 14px;
+  font-style: normal;
   line-height: 1.71;
   color: var(--accent-color-white);
 }
