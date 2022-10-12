@@ -15,7 +15,7 @@ body {
 }
 /* header */
 .header {
-  background-color: #ffffff;
+  background-color: var(--accent-color-white);
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -59,9 +59,9 @@ body {
 .header-tel:focus {
   color: var(--accent-color-blue);
 }
-/* header */
 
 /* main */
+
 /* герой */
 .hero {
   background-color: #2f303a;
@@ -126,7 +126,6 @@ p {
   color: var(--title-text-color);
   text-align: center;
 }
-/* main */
 
 /* footer */
 .footer {
@@ -155,12 +154,11 @@ p {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
-/* footer */
 
 /* PORTFOLIO */
 /* фільтр */
 .filter {
-  background-color: #f5f5f5;
+  background-color: var(--backgroud-color);
 }
 .button-portfolio {
   font-weight: 500;
@@ -184,7 +182,7 @@ p {
 }
 /* приклади робіт */
 .portfolio {
-  background-color: #f5f5f5;
+  background-color: var(--backgroud-color);
 }
 .project-title {
   font-weight: 700;
